@@ -1,6 +1,6 @@
-#ifndef HITTABLEH
-#define HITTABLEH
-
+//#ifndef HITTABLEH
+//#define HITTABLEH
+#pragma once
 #include "../ray_class/ray.h"
 
 struct hit_record
@@ -10,10 +10,10 @@ struct hit_record
     vec3 normal;
 };
 
-class hitable
+class hittable
 {
 public:
     virtual bool hit(const ray &r, float t_min, float t_max, hit_record &rec) const = 0;
 };
 
-#endif
+//#endif
