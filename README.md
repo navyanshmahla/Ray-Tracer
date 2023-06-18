@@ -1,6 +1,7 @@
 # A simple Ray Tracer
 
 This is a simple ray tracer that I built after learning ray tracing from <a href="https://raytracing.github.io/">this</a> excellent resource!
+I'v also used SDL2 in order to represent the images in a window, quite a hassle to view ppm files directly in mac.
 
 The ray tracer has functionalities like anti-aliasing, diffuse material reflection, etc. 
 
